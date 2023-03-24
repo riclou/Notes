@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+button{
+    margin: 0.3rem;
+}
+.create-notes{
+    display: flex;
+    margin-top: 5rem;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+}
+.btn-success{
+    display: block;
+    margin: auto;
+}
+textarea {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    border: 2px 3px;
+    border-radius: 2px 2px;
+    outline: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+}
+#title{
+    padding: 0.7rem;
+    outline: none;
+    border-radius: 1px 1px;
+}
+#title:focus,textarea:focus{
+    border-color: rgb(0, 132, 255);
+}
+label{
+    font-size: 1.2rem;
+    margin-left: 5rem;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3rem auto;
+    gap: 1.4rem;
+}
+.btn-danger{
+    display: block;
+    margin: auto;
+}
